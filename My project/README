@@ -1,0 +1,20 @@
+# Weather App (Full-Stack)
+
+## Features
+- React frontend where user can enter a city and see weather info.
+- Express backend that fetches weather data from OpenWeather API.
+- Ready for deployment (Render for backend, Vercel for frontend).
+
+## Setup
+
+### Backend
+1. cd backend
+2. npm install
+3. Add `.env` file with: API_KEY=your_openweather_api_key
+4. npm start
+
+### Frontend
+1. cd frontend
+2. npm install
+3. Add `.env` file with: REACT_APP_API_URL=http://localhost:5000
+4. npm start
